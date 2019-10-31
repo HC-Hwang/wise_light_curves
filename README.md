@@ -100,6 +100,8 @@ plt.show()
 
 
 ## References
-Hwang & Zakamska (https://arxiv.org/abs/1909.06375)
+Hwang & Zakamska (https://arxiv.org/abs/1909.06375). Most of the module is developed for this work.
+
 Explanatory Supplement to the AllWISE Data Release Products (http://wise2.ipac.caltech.edu/docs/release/allwise/expsup/)
+
 Explanatory Supplement to the NEOWISE Data Release Products (http://wise2.ipac.caltech.edu/docs/release/neowise/expsup/)
