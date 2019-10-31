@@ -7,7 +7,7 @@ Some useful functions of `wise_light_curves` include:
 
 We provide a tutorial Jupyter notebook for this module, tutorial.ipynb. Below, we go through the functions of `wise_light_curves` that are used in the tutoral.
 
-#Import
+## Import
 
 First, import the module:
 
@@ -15,7 +15,7 @@ First, import the module:
 import wise_light_curves
 ```
 
-#Example 1: download WISE light curves
+## Example 1: download WISE light curves
 
 `download_single_data`: before using this function, create a folder where you want to store the WISE light curve data. In this example, we create a folder "ipac". Then we call `download_single_data` to download the WISE light curves, including AllWISE and NeoWISE data, using the ra dec coordinate. Notice that if `download_single_data` finds a file with the same requested file name in the folder, then `download_single_data` does not download the data. 
 
@@ -28,7 +28,7 @@ download_single_data(name='wise_0735-3308', ra=ra, dec=dec, root_path='ipac/', r
 It may take about 20 seconds to download the light curves. After that, we will find `wise_0735-3308_allwise.ipac` and `wise_0735-3308_neowise.ipac` under the `ipac\` folder.
 
 
-#Example 2: explore the WISE light curves
+## Example 2: explore the WISE light curves
 
 We first read the ipac files using astropy's `ascii` function:
 ```python
@@ -73,7 +73,7 @@ plt.show()
 
 ![](figs/part_lc.png)
 
-#Example 3: plot phase-folded light curves
+## Example 3: plot phase-folded light curves
 `make_full_lightcurve_multibands` combine the AllWISE data and NeoWISE data, and returns arrays of time, magnitudes, matnitude errors, and filters.
 
 ```python
