@@ -9,10 +9,10 @@ We provide a tutorial Jupyter notebook for this module, tutorial.ipynb. Below, w
 
 ## Import
 
-First, import the module:
+Import the module:
 
 ```python
-import wise_light_curves
+from wise_light_curves import *
 ```
 
 ## Example 1: download WISE light curves
