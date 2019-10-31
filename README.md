@@ -5,7 +5,7 @@ Some useful functions of `wise_light_curves` include:
 1. functions to download light curves from AllWISE and NeoWISE;
 2. tools to manipulate the light curve data and investigate their properties.
 
-We provide a tutorial Jupyter notebook for this module, tutorial.ipynb. Below, we go through the functions of `wise_light_curves` that are used in the tutoral.
+We provide a tutorial Jupyter notebook for this module, `tutorial.ipynb`. Below, we go through the functions of `wise_light_curves` that are used in the tutoral.
 
 ## Import
 
@@ -17,7 +17,7 @@ from wise_light_curves import *
 
 ## Example 1: download WISE light curves
 
-`download_single_data`: before using this function, create a folder where you want to store the WISE light curve data. In this example, we create a folder `ipac`. Then we call `download_single_data` to download the WISE light curves (including AllWISE and NeoWISE) using the ra dec coordinate. Notice that if `download_single_data` finds a file with the same requested file name in the folder (`ipac` in this case), then `download_single_data` does not execute the download. 
+Before using `download_single_data`, create a folder where you want to store the WISE light curve data. In this example, we create a folder `ipac`. Then we call `download_single_data` to download the WISE light curves (including AllWISE and NeoWISE) using the ra dec coordinate. Notice that if `download_single_data` finds a file with the same requested file name in the folder (`ipac` in this case), then `download_single_data` does not execute the download. 
 
 ```python
 ra = 113.7677455178
@@ -101,3 +101,5 @@ plt.show()
 
 ## References
 Hwang & Zakamska (https://arxiv.org/abs/1909.06375)
+Explanatory Supplement to the AllWISE Data Release Products (http://wise2.ipac.caltech.edu/docs/release/allwise/expsup/)
+Explanatory Supplement to the NEOWISE Data Release Products (http://wise2.ipac.caltech.edu/docs/release/neowise/expsup/)
