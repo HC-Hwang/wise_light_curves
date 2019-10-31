@@ -5,7 +5,6 @@ from astropy.io import ascii
 from astropy.table import Table
 
 import requests
-from multiprocessing import Pool
 import os
 
 #author: Matthew Hill, Hsiang-Chih Hwang
