@@ -1,5 +1,5 @@
 # wise_light_curves
-`wise_light_curves` is a Python module to download and explore WISE light curves. The codes are contributed by Hsiang-Chih Hwang and Matthew Hill. This module is written for Python 3, and it depends on the following packages: `astropy, matplotlib, numpy`. This module is not fully tested in Python 2.7, but we expect it to be compatible with Python 2.7.
+`wise_light_curves` is a Python module to download and explore WISE light curves. The codes are contributed by Hsiang-Chih Hwang and Matthew Hill. This module is written for Python 3, and it depends on the following packages: `astropy, matplotlib, numpy`. 
 
 Some useful functions of `wise_light_curves` include:
 1. functions to download light curves from AllWISE and NeoWISE;
@@ -98,6 +98,9 @@ plt.show()
 
 ![](figs/phase_lc.png)
 
+## Contact
+
+If you have any suggestions or encouter any problems, feel free to contact me: hchwang@jhu.edu
 
 ## References
 Hwang & Zakamska (https://arxiv.org/abs/1909.06375). Most of the module is developed for this work.
