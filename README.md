@@ -37,7 +37,7 @@ allwise = ascii.read('ipac/wise_0735-3308_allwise.ipac', format='ipac')
 neowise = ascii.read('ipac/wise_0735-3308_neowise.ipac', format='ipac')
 ```
 
-We use the function `only_good_data_v1` to remove bad photometric measurements. The criteria used in this function are detailed in Hwang & Zakamska (https://arxiv.org/abs/1909.06375), and more details are in the WISE Explanatory Supplement (see the Reference). Users are welcome to design their own criteria. 
+We use the function `only_good_data_v1` to remove bad photometric measurements. The criteria used in this function are detailed in Hwang & Zakamska (https://arxiv.org/abs/1909.06375), and more details are in the WISE Explanatory Supplement (see the References). Users are welcome to design their own criteria. 
 
 ```python
 allwise, neowise = only_good_data_v1(allwise, neowise)
