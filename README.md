@@ -103,7 +103,7 @@ plt.show()
 If you have any suggestions or encouter any problems, feel free to contact me: hchwang@jhu.edu
 
 ## References
-Hwang & Zakamska (https://arxiv.org/abs/1909.06375). Most of the module is developed for this work.
+Hwang & Zakamska, 2020 (https://ui.adsabs.harvard.edu/abs/2020MNRAS.493.2271H/abstract). Most of the module is developed for this work.
 
 Explanatory Supplement to the AllWISE Data Release Products (http://wise2.ipac.caltech.edu/docs/release/allwise/expsup/)
 
